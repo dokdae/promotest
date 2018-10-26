@@ -3,8 +3,8 @@
 
     h1 {
         font-size: 38px;
-        padding-left: 16px;
-        padding-right: 16px;
+        /* padding-left: 16px;
+        padding-right: 16px; */
     }
 
     h2 {
@@ -12,10 +12,10 @@
         margin-top: 18px;
     }
 
-    p {
+    /* p {
         padding-left: 16px;
         padding-right: 16px;
-    }
+    } */
 
     .globalnav__logo {
         margin-left: -16px
@@ -105,8 +105,12 @@
     }
 
     .offer__title {
-        padding-top: 64px;
+        padding: 64px 16px 0 16px;
         margin-bottom: 24px;
+    }
+
+    .offer__text {
+        padding: 0 16px;
     }
 
     .offer__list {
