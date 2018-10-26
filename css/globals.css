@@ -57,7 +57,7 @@ p {
 }
 
 .header__trailer {
-    position: relative;
+    /* position: relative; */
     width: 100%;
     margin-bottom: 57px;
     text-align: center;
@@ -73,12 +73,6 @@ p {
       transform: none;
     }
   }
-
-/* .header__trailer iframe {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-  } */
 
 .btn-wrap {
     display: table; 

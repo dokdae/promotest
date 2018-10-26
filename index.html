@@ -11,6 +11,9 @@
   src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+  <script src="js/navfix.js"></script>
+  <script src="js/scrolling.js"></script>
+  <script src="js/gotop.js"></script>
 </head>
 <body>
   <nav class="navigation">
@@ -24,14 +27,14 @@
     <div class="localnav">
       <a href="https://assassinscreed.ubisoft.com/game/en-us/home" target="_blank"><img src="images/icon-ac.png" class="localnav__logo"></a>
       <ul class="localnav__list">
-       <li class="localnav__list-item"><a href="#" class="localnav__link">HOME</a></li>
-       <li class="localnav__list-item"><a href="#" class="localnav__link">SCHEDULE</a></li>
-       <li class="localnav__list-item"><a href="#" class="localnav__link">OVERVIEW</a></li>
-       <li class="localnav__list-item"><a href="#" class="localnav__link">SPECIAL OFFER</a></li>
+       <li class="localnav__list-item"><a href="#" class="localnav__link" onclick="goTop()">HOME</a></li>
+       <li class="localnav__list-item"><a href="#schedule" class="localnav__link">SCHEDULE</a></li>
+       <li class="localnav__list-item"><a href="#overview" class="localnav__link">OVERVIEW</a></li>
+       <li class="localnav__list-item"><a href="#offer" class="localnav__link">SPECIAL OFFER</a></li>
       </ul>
     </div>
   </nav>
-  <header class="header">
+  <header class="header" id="top">
     <img src="images/header-logo-lg.png" class="header__logo">
     <h1 class="header__intro">PLAY FOR FREE NOVEMBER 23-26</h1>
     <div class="header__trailer">
@@ -44,11 +47,11 @@
       <a href="https://assassinscreed.ubisoft.com/game/en-us/home" class="header__moreinfo">click here.</a>
     </h3>
   </header>
-  <div class="divider"></div>
+  <div class="divider" id="schedule"></div>
   <div class="schedule">
     <img src="images/schdule-v2.jpg" style="width: 100%">
   </div>
-  <div class="divider"></div>
+  <div class="divider" id="overview"></div>
   <div class="overview">
     <h1 class="overview__title">LIVE THE EPIC ODYSSEY OF<br>A LEGENDARY SPARTAN HERO</h1>
     <p class="overview__text">
@@ -58,7 +61,7 @@
       <a href="https://assassinscreed.ubisoft.com/game/en-us/odyssey" class="btn">LEARN MORE</a>
     </div>
   </div>
-  <div class="divider"></div>
+  <div class="divider" id="offer"></div>
   <div class="offer">
     <h1 class="offer__title">GET YOUR COPY NOW</h1>
     <p class="offer__text">Get in Assassin’s Creed® Odyssey now for up to 25% off. Limited time offer.
@@ -108,7 +111,7 @@
     </ul>
 
   </div>
-  <div class="divider"></div>
+  <div class="divider" id="social"></div>
   <div class="social">
     <h1 class="social__title">WANT MORE INFO?<br>FOLLOW US FOR UPDATES</h1>
     <ul class="social__channels">

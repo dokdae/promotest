@@ -1,3 +1,13 @@
+.navigation {
+    text-align: center;
+    width: 100%;
+}
+
+.fixed {
+    position: fixed;
+    top: 0px;
+}
+
 .globalnav {
     height: 45px;
     display: flex;
