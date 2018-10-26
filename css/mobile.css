@@ -3,11 +3,18 @@
 
     h1 {
         font-size: 38px;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
     h2 {
         font-size: 20px;
         margin-top: 18px;
+    }
+
+    p {
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
     .globalnav__logo {
@@ -111,7 +118,7 @@
 
     .offer__list-item {
         width: 160px;
-        margin: 0 4px 24px 4px;
+        margin: 0 4px 32px 4px;
     }
 
     .offer__list-item-name {
