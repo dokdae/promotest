@@ -145,7 +145,7 @@
 
     .social__title {
         font-size: 32px;
-        padding-top: 64px;
+        padding: 64px 16px 0 16px;
         margin-bottom: 40px;
     }
 
